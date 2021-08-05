@@ -12,3 +12,11 @@ Login With
   Input Text        ${email_field}      ${email}
   Input Text        ${password_field}   ${password}
   Click Element     ${submit_button}
+
+Go To Login Page
+  Go To Main Screen
+  Open Hamburguer Menu
+  Navigate To Screen          FORMS
+
+  Click Text                  LOGIN
+  Wait Until Page Contains    Fala QA, vamos testar o login?

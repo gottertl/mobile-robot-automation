@@ -18,8 +18,10 @@ Start Session
 
 
 End Session
+  Capture Page Screenshot
   Close Application
 
 
 End Test
   Capture Page Screenshot
+  
