@@ -3,7 +3,9 @@ Documentation       This is the base file containing common tests and general se
 
 Library             AppiumLibrary
 
-Resource            /actions/main.robot
+Resource            ${EXECDIR}/resources/actions/main.robot
+Resource            ${EXECDIR}/resources/actions/home.robot
+Resource            ${EXECDIR}/resources/actions/login.robot
 
 *** Keywords ***
 Start Session

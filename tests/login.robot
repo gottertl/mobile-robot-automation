@@ -14,7 +14,7 @@ ${password}   qaninja
 *** Test Cases ***
 Scenario: Successful Login
   Go To Main Screen
-  Open Hamburguer
+  Open Hamburguer Menu
   Navigate To Screen          FORMS
 
   Click Text                  LOGIN

@@ -10,5 +10,5 @@ Test Teardown     End Test
 *** Test Cases ***
 Should Go To Dialogs Screen
   Go To Main Screen
-  Open Hamburguer
+  Open Hamburguer Menu
   Navigate To Screen              DIALOGS
